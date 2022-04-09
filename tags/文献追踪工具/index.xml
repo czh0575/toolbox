@@ -2,36 +2,36 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>文献追踪工具 on 三场五幕ToolBox</title>
-    <link>https://example.com/tags/%E6%96%87%E7%8C%AE%E8%BF%BD%E8%B8%AA%E5%B7%A5%E5%85%B7/</link>
+    <link>/tags/%E6%96%87%E7%8C%AE%E8%BF%BD%E8%B8%AA%E5%B7%A5%E5%85%B7/</link>
     <description>Recent content in 文献追踪工具 on 三场五幕ToolBox</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 10 Apr 2022 03:15:00 +0800</lastBuildDate><atom:link href="https://example.com/tags/%E6%96%87%E7%8C%AE%E8%BF%BD%E8%B8%AA%E5%B7%A5%E5%85%B7/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 10 Apr 2022 03:15:00 +0800</lastBuildDate><atom:link href="/tags/%E6%96%87%E7%8C%AE%E8%BF%BD%E8%B8%AA%E5%B7%A5%E5%85%B7/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>经济学文献追踪工具发布（同步更新）</title>
-      <link>https://example.com/blog/jnup_release_update/</link>
+      <link>/blog/jnup_release_update/</link>
       <pubDate>Sun, 10 Apr 2022 03:15:00 +0800</pubDate>
       
-      <guid>https://example.com/blog/jnup_release_update/</guid>
+      <guid>/blog/jnup_release_update/</guid>
       <description>最新版本Latest Version：  v3.0 Mac版下载地址： Windows版下载地址：  历史版本：    发布版本 发布时间 Win下载地址 Mac下载地址 更新日志 备注     v3.0 2022.04.10 🖥 点此下载 🔎点此下载  大版本更新   v2.5 2021.12.08 🖥 点此下载  - v2.5更新日志  大版本更新    </description>
     </item>
     
     <item>
       <title>JnUp经济学文献追踪工具v3.0更新</title>
-      <link>https://example.com/blog/jnup_release_v3.0/</link>
+      <link>/blog/jnup_release_v3.0/</link>
       <pubDate>Sun, 10 Apr 2022 00:00:00 +0800</pubDate>
       
-      <guid>https://example.com/blog/jnup_release_v3.0/</guid>
+      <guid>/blog/jnup_release_v3.0/</guid>
       <description>🥳JournalUpdater更新发布v3.0版本，此版本为重要更新版本，请及时更新。该版本更新日志如下：
 修复与更新  修改了界面UI，主要针对mac下的界面进行了适配，并添加了按钮的动态效果，移动、点击时颜色变化，并适配MacOS下的深色模式 大幅度优化流程和代码  登录界面右下角新增检查更新按钮，便于和三场五幕工具开发站 中发布的JnUp最新版比对，并提示跳转。    image   登陆密码与MySQL数据进行比对，比对成功才可登陆。 优化了按键逻辑，若切换期刊，则右侧表格清空且切换为不可用状态，避免不对应而导致出错。  image   此外，只有当右侧表格出现时，下方导出目录中选择文件夹 才可启用，当导出目录中有地址时，导出 按钮才可启用。  image   登录不再测试SCI-Hub线路，将原来检索 功能替换为SCI-Hub测速 ，取消检索 功能，SCI-Hub线路来自于MySQL数据库，分为官方源和互联网源，可手动勾选后一键测速，自动选择速度最快的线路，也可右键选择合适的线路，亦可自定义线路，选择完毕后确认退出。  image   新增英文期刊右侧表格列，为标题的机器翻译，便于阅读。  image   优化详情页统一性，没有校外登陆的期刊统一设置校外登陆 按钮不可用，无法下载的也设置PDF下载 不可用。  image   一键翻译 仅在中文标题和中文摘要为空或读取出错时才可使用，大幅减少请求互联网的次数。 支持对系统的判断，根据判断系统执行cmd语句（如ping ip）。 全面支持MacOS，在Monterey 12.1版本上测试有效。 在win和mac上均使用安装工具封装。  下一步计划  将部分MySQL数据移植到本地用sqlite，减少非必要的访问。同时解决本地数据库增量更新问题。 新增我的阅读列表功能，将待读文献加入列表中便于及时查看，该项更新需要本地数据库sqlite支持。  </description>
     </item>
     
     <item>
       <title>JnUp经济学文献追踪工具v2.5更新</title>
-      <link>https://example.com/blog/jnup_release_v2.5/</link>
+      <link>/blog/jnup_release_v2.5/</link>
       <pubDate>Wed, 08 Dec 2021 00:00:00 +0800</pubDate>
       
-      <guid>https://example.com/blog/jnup_release_v2.5/</guid>
+      <guid>/blog/jnup_release_v2.5/</guid>
       <description>🥳JournalUpdater更新发布v2.5版本，此版本为重要更新版本，请及时更新。该版本更新日志如下：
 修复与更新  自v2.5起加入版本控制，并在Gitee同步。 v2.5大幅修改了界面扁平化UI，适配不同分辨率和系统缩放倍数下的显示。 由于MySQL搜索方式未做优化，在没有找到更好的MySQL搜索方式前已禁用搜索功能。 在Windows端打包发布，适用于win7以上系统。由于使用了win32包，暂不支持Mac系统。  发布  Gitee（码云） v2.5 Release   涉及到服务器安全问题，暂未开源，仅限作者访问   蓝奏云下载： JnUpSetupv2.5   安装说明  这是JournalUpdater首次使用安装工具，因为Python打包exe后如果不在目录中存放图片就无法引用😫，所以使用Inno Setup将Python编译后的文件打包成一个安装文件。 这样也对用户比较友好，可以像安装其他软件一样安装，并且会自动生成卸载程序，方便快速卸载。 这里只需要选下一步安装即可，减少了很多选择步骤。默认安装到D:\Program Files\ 目录下，自动生成JournalUpdater文件夹。暂不支持更改目录。  安装界面  使用说明 预先设置  使用PyQt5编译有个难解决的问题，即便开启了高分屏自适应，工具窗口也会有一定的变形，如窗口不变但字体变大，导致界面很不美观，这一版本重新设计了UI界面，但仍然无法回避这个问题，尽管仍然可以使用，但建议在高分屏下进行如下设置：  选中桌面上的经济学文献跟踪工具，右键属性，在兼容性 选项卡下，选择更改高DPI设置。    兼容性菜单   继续勾选高DPI缩放替代 下的选项，下方选系统 或系统(增强) 。按确定直至完成设置。  高DPI缩放替代   此时再次打开该工具，牺牲了一定程度的字体清晰度，但适配性会提高。可以在两者之间斟酌，若清晰度重要可以不开高DPI缩放替代  登录界面  服务器可选三个线路，分别对应线路1：局域网 、线路2：Zerotier 和线路3：云数据库 ，其中线路1和2仅限自用，所以默认使用线路3。 自动选择可测速并选择最快的数据库，非自用情况下没有太大作用，预留作为以后多个服务器的功能。 输入密码后选择登录，有稍微的延迟，主要在于：  自动测试连接所选线路的服务器 自动测试可用的scihub地址，并返回   右下角正在检查版本更新... 是无效功能，预留作为手动/自动更新的入口。  登陆界面  使用界面  以下为2K分辨率，1.</description>
     </item>
