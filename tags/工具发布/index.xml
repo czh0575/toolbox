@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>工具发布 on 三场五幕ToolBox</title>
+    <link>https://example.com/tags/%E5%B7%A5%E5%85%B7%E5%8F%91%E5%B8%83/</link>
+    <description>Recent content in 工具发布 on 三场五幕ToolBox</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sun, 10 Apr 2022 03:15:00 +0800</lastBuildDate><atom:link href="https://example.com/tags/%E5%B7%A5%E5%85%B7%E5%8F%91%E5%B8%83/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>经济学文献追踪工具发布（同步更新）</title>
+      <link>https://example.com/blog/jnup_release_update/</link>
+      <pubDate>Sun, 10 Apr 2022 03:15:00 +0800</pubDate>
+      
+      <guid>https://example.com/blog/jnup_release_update/</guid>
+      <description>最新版本Latest Version：  v3.0 Mac版下载地址： Windows版下载地址：  历史版本：    发布版本 发布时间 Win下载地址 Mac下载地址 更新日志 备注     v3.0 2022.04.10 🖥 点此下载 🔎点此下载  大版本更新   v2.5 2021.12.08 🖥 点此下载  - v2.5更新日志  大版本更新    </description>
+    </item>
+    
+  </channel>
+</rss>

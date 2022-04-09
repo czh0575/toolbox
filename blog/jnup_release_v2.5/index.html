@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang='zh-cn' class=''>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name=viewport content="width=device-width, initial-scale=1">
+
+<meta name="description" content="JnUp经济学文献追踪工具_v2.5_Release" />
+
+<title>
+	三场五幕ToolBox
+	 - JnUp经济学文献追踪工具v2.5更新 
+</title>
+
+
+
+<link rel="icon" href="/favicon.ico">
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://example.com/js/pico.min.f68158e607f7493b08ceb09d0d24efe0.js" intergrity="md5-9oFY5gf3STsIzrCdDSTv4A==" crossorigin="anonymous"></script>
+
+
+	
+
+
+
+
+
+<link rel="stylesheet" href="https://example.com/css/main.min.012833708808652e005660d4ee49e686.css" crossorigin="anonymous" media="screen"
+	integrity="md5-ASgzcIgIZS4AVmDU7knmhg==">
+
+
+
+
+
+
+<link rel="stylesheet" href="https://example.com/css/syntax.min.a381883ed9f1079c185da5f1200cd5a9.css" crossorigin="anonymous"
+	integrity="md5-o4GIPtnxB5wYXaXxIAzVqQ==" media="screen">
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="https://example.com/style/style.min.ab682bff6c64be37017ae2a9015d7af7.css" crossorigin="anonymous" media="screen"
+	integrity="md5-q2gr/2xkvjcBeuKpAV169w==">
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="https://example.com/css/main.min.d5d46344e3b621a3e3a173927106f45d.css" crossorigin="anonymous" media="screen"
+	integrity="md5-1dRjROO2IaPjoXOScQb0XQ==">
+
+
+</head>
+
+<body class="min-h-screen bg-secondary-light dark:bg-secondary text-primary relative pb-24">
+	
+	<div id="top" class="dark"></div>
+
+<header class="w-full flex items-center justify-between px-5 mx-auto md:pt-8 md:max-w-5xl pt-5">
+	
+	<div class="flex items-center">
+		<a href="https://example.com/" class="inline-block font-bold no-underline select-none">
+			<h1 class="font-charter tracking-normal m-0">
+				三场五幕ToolBox
+			</h1>
+		</a>
+		
+	</div>
+
+	<nav class="">
+		
+		<a href="/"
+			class='mx-1 md:mx-2 hover:text-primary-light dark:hover:text-primary-dark no-underline'>
+			 首页
+		</a>
+		
+		<a href="/blog/"
+			class='mx-1 md:mx-2 hover:text-primary-light dark:hover:text-primary-dark no-underline'>
+			 更新日志
+		</a>
+		
+		<a href="/about/"
+			class='mx-1 md:mx-2 hover:text-primary-light dark:hover:text-primary-dark no-underline'>
+			 关于
+		</a>
+		
+		<a href="https://czhweb.gitee.io/"
+			class='mx-1 md:mx-2 hover:text-primary-light dark:hover:text-primary-dark no-underline'>
+			导航站 
+		</a>
+		
+		<a href="https://czhweb.gitee.io/software/"
+			class='mx-1 md:mx-2 hover:text-primary-light dark:hover:text-primary-dark no-underline'>
+			软件站 
+		</a>
+		
+	</nav>
+</header>
+	
+
+	<main class="w-full px-4 pt-8 mx-auto md:max-w-4xl overflow-x-hidden md:overflow-visible ">
+<button onclick="window.history.back()"
+	class="bg-transparent border-none font-bold">&larr;返回</button>
+<h1 class="text-center mx-auto max-w-4xl text-4xl sm:text-5xl md:text-6xl">
+	JnUp经济学文献追踪工具v2.5更新
+</h1>
+
+<div class="text-justify leading-loose mb-12 text-lg">
+	<p>🥳JournalUpdater更新发布v2.5版本，此版本为重要更新版本，请及时更新。该版本更新日志如下：</p>
+<h1 id="修复与更新">修复与更新</h1>
+<ul>
+<li>自v2.5起加入版本控制，并在Gitee同步。</li>
+<li>v2.5大幅修改了界面扁平化UI，适配不同分辨率和系统缩放倍数下的显示。</li>
+<li>由于MySQL搜索方式未做优化，在没有找到更好的MySQL搜索方式前已禁用搜索功能。</li>
+<li>在Windows端打包发布，适用于win7以上系统。由于使用了win32包，暂不支持Mac系统。</li>
+</ul>
+<h1 id="发布">发布</h1>
+<ul>
+<li>Gitee（码云）
+
+
+
+
+<a href="https://gitee.com/czhweb/journalupdater/releases/v2.5" 
+	class="underline "  target="_blank" rel="noopener"
+	>
+	v2.5 Release
+</a>
+<ul>
+<li>涉及到服务器安全问题，暂未开源，仅限作者访问</li>
+</ul>
+</li>
+<li>蓝奏云下载： 
+
+
+
+
+<a href="https://czh0575.lanzouo.com/iK8PDxd89le" 
+	class="underline "  target="_blank" rel="noopener"
+	>
+	JnUpSetupv2.5
+</a></li>
+</ul>
+<h1 id="安装说明">安装说明</h1>
+<ul>
+<li>这是JournalUpdater首次使用安装工具，因为Python打包<code>exe</code>后如果不在目录中存放图片就无法引用😫，所以使用<code>Inno Setup</code>将Python编译后的文件打包成一个安装文件。</li>
+<li>这样也对用户比较友好，可以像安装其他软件一样安装，并且会自动生成卸载程序，方便快速卸载。</li>
+<li>这里只需要选下一步安装即可，减少了很多选择步骤。默认安装到<code>D:\Program Files\</code> 目录下，自动生成<code>JournalUpdater</code>文件夹。暂不支持更改目录。</li>
+</ul>
+<p><img  class="mx-auto my-4"  src="/img/8mMKiOXMGW4FBkA3-CoChQNtFEnJcEBdxSbTv6W9tZs.png" alt="安装界面"
+	>
+
+
+<div class="text-center my-2 font-sans text-md text-grey-800">
+	安装界面
+</div>
+</p>
+<h1 id="使用说明">使用说明</h1>
+<h2 id="预先设置">预先设置</h2>
+<ul>
+<li>使用PyQt5编译有个难解决的问题，即便开启了高分屏自适应，工具窗口也会有一定的变形，如窗口不变但字体变大，导致界面很不美观，这一版本重新设计了UI界面，但仍然无法回避这个问题，尽管仍然可以使用，但建议在高分屏下进行如下设置：
+<ul>
+<li>选中桌面上的经济学文献跟踪工具，右键属性，在<code>兼容性</code> 选项卡下，选择更改高DPI设置。</li>
+</ul>
+</li>
+</ul>
+<p><img  class="mx-auto my-4"  src="/img/WVNleQfFfuV_Zfv9KS8a2rZz8l7E1drQmzaz7MNqe-s.png" alt="兼容性菜单"
+	>
+
+
+<div class="text-center my-2 font-sans text-md text-grey-800">
+	兼容性菜单
+</div>
+</p>
+<ul>
+<li>继续勾选<code>高DPI缩放替代</code> 下的选项，下方选<code>系统</code> 或<code>系统(增强)</code> 。按确定直至完成设置。</li>
+</ul>
+<p><img  class="mx-auto my-4"  src="/img/zekBYPtaRNp8fdZ3UT3vS0Lz03x86eC3allo8qUp6n8.png" alt="高DPI缩放替代"
+	>
+
+
+<div class="text-center my-2 font-sans text-md text-grey-800">
+	高DPI缩放替代
+</div>
+</p>
+<ul>
+<li>此时再次打开该工具，牺牲了一定程度的字体清晰度，但适配性会提高。可以在两者之间斟酌，若清晰度重要可以不开<code>高DPI缩放替代</code></li>
+</ul>
+<h2 id="登录界面">登录界面</h2>
+<ul>
+<li>服务器可选三个线路，分别对应<code>线路1：局域网</code> 、<code>线路2：Zerotier</code> 和<code>线路3：云数据库</code> ，其中线路1和2仅限自用，所以默认使用线路3。</li>
+<li>自动选择可测速并选择最快的数据库，非自用情况下没有太大作用，预留作为以后多个服务器的功能。</li>
+<li>输入密码后选择登录，有稍微的延迟，主要在于：
+<ul>
+<li>自动测试连接所选线路的服务器</li>
+<li>自动测试可用的scihub地址，并返回</li>
+</ul>
+</li>
+<li>右下角<code>正在检查版本更新...</code> 是无效功能，预留作为手动/自动更新的入口。</li>
+</ul>
+<p><img  class="mx-auto my-4"  src="/img/W9PgriwL7VpptYA6z_iS5obDZshdJAmTsx8SyOAhNXU.png" alt="登陆界面"
+	>
+
+
+<div class="text-center my-2 font-sans text-md text-grey-800">
+	登陆界面
+</div>
+</p>
+<h2 id="使用界面">使用界面</h2>
+<blockquote>
+<p>以下为2K分辨率，1.25倍缩放下的界面</p>
+</blockquote>
+<p><img  class="mx-auto my-4"  src="/img/XExNbZ7COVEfR4NWU0WKgHOPJf66DC0NXzGgPUtcNOE.png" alt="2K分辨率，1.25倍缩放"
+	>
+
+
+<div class="text-center my-2 font-sans text-md text-grey-800">
+	2K分辨率，1.25倍缩放
+</div>
+</p>
+<blockquote>
+<p>以下为开启<code>高DPI缩放替代</code> 的界面，字体变小，但模糊</p>
+</blockquote>
+<p><img  class="mx-auto my-4"  src="/img/GeBjYSXCWboI-sPoTBXSUbY5YRQ_98-WRYWZWFcxeOM.png" alt="高DPI缩放替代界面"
+	>
+
+
+<div class="text-center my-2 font-sans text-md text-grey-800">
+	高DPI缩放替代界面
+</div>
+</p>
+<ul>
+<li>按<code>期刊—时间—文章</code> 的顺序依次单击选择，时间基本从2000-至今。</li>
+<li>文章列表中标红的为近期更新的文章（25天以内）。</li>
+<li>检索功能暂不可用👽</li>
+<li>双击文章列表中的文章可以打开详情，中英文有区别：</li>
+</ul>
+<p><img  class="mx-auto my-4"  src="/img/D7LvVMMsZ-_GV-D1VseYfv8Db9smIMUIJu1S2hrklD0.png" alt="中文期刊详情"
+	>
+
+
+<div class="text-center my-2 font-sans text-md text-grey-800">
+	中文期刊详情
+</div>
+</p>
+<p><img  class="mx-auto my-4"  src="/img/7SoJ6AO3faivBhdKQbNO81LLabvQv0Q0-Wlyq5-p1ic.png" alt="英文期刊详情"
+	>
+
+
+<div class="text-center my-2 font-sans text-md text-grey-800">
+	英文期刊详情
+</div>
+</p>
+<ul>
+<li>英文期刊下比中文多<code>一键翻译</code>功能，可调用百度翻译api，对标题和摘要进行翻译。另外还有SCI-Hub下载功能，可根据登陆时自动选择的SCI-Hub线路加上doi打开下载界面。</li>
+<li>中英文详情界面的所有内容可选择复制，也可用<code>Ctrl/Command + 鼠标滚轮</code>缩放字体。但不可编辑。</li>
+</ul>
+<h1 id="下一步计划">下一步计划</h1>
+<ul>
+<li>下一版本将逐步加入开启自动查找进度条功能，优化此后各模块的语法，提高运行速度。并对后端MySQL进行优化。</li>
+<li>关注数据库安全，将优化所有关于数据库的安全设置。</li>
+</ul>
+
+</div>
+
+
+<hr class="mb-6 mt-24">
+
+
+<div class="flex flex-wrap justify-between items-center">
+	
+
+	
+	<div
+		class=" ml-auto  mt-1 text-center sm:text-right overflow-ellipsis pl-1">
+		<a href="https://example.com/blog/jnup_release_v3.0/">
+			<span class="underline">JnUp经济学文献追踪工具v3.0更新</span>
+		</a>
+		<a class="ml-4 no-underline" href="https://example.com/blog/jnup_release_v3.0/">
+			<img src="/icons/top_arrow.svg" class="transform rotate-90 inline-block">
+		</a>
+	</div>
+	
+</div>
+
+<hr class="my-6">
+<div class="flex justify-center items-center flex-wrap">
+	
+	<a href="mailto:zjsxczh@gmail.com" title="Email"
+		class="bg-black rounded-full p-3 mx-2 my-2 transform hover:scale-110 active:scale-90 transition-transform duration-300 ease-in-out"
+		 >
+		<img src="/icons/email.svg" alt="email icon" class="w-4 h-4 md:w-6 md:h-6 blend-diff">
+	</a>
+	
+	<a href="https://github.com/czh0575" title="github"
+		class="bg-black rounded-full p-3 mx-2 my-2 transform hover:scale-110 active:scale-90 transition-transform duration-300 ease-in-out"
+		 target="_blank"   rel="noopener" >
+		<img src="/icons/github.svg" alt="github icon" class="w-4 h-4 md:w-6 md:h-6 blend-diff">
+	</a>
+	
+	<a href="https://gitee.com/czhweb" title="Gitee码云"
+		class="bg-black rounded-full p-3 mx-2 my-2 transform hover:scale-110 active:scale-90 transition-transform duration-300 ease-in-out"
+		 target="_blank"   rel="noopener" >
+		<img src="/icons/gitee.svg" alt="gitee icon" class="w-4 h-4 md:w-6 md:h-6 blend-diff">
+	</a>
+	
+	<a href="https://mp.weixin.qq.com/s/jl52Jb9vwkk_E_rMrTZVKA" title="微信公众号：三场五幕"
+		class="bg-black rounded-full p-3 mx-2 my-2 transform hover:scale-110 active:scale-90 transition-transform duration-300 ease-in-out"
+		 target="_blank"   rel="noopener" >
+		<img src="/icons/wxplat.svg" alt="wxplat icon" class="w-4 h-4 md:w-6 md:h-6 blend-diff">
+	</a>
+	
+	<a href="https://czhweb.gitee.io" title="三场五幕导航站"
+		class="bg-black rounded-full p-3 mx-2 my-2 transform hover:scale-110 active:scale-90 transition-transform duration-300 ease-in-out"
+		 target="_blank"   rel="noopener" >
+		<img src="/icons/navigation.svg" alt="navigation icon" class="w-4 h-4 md:w-6 md:h-6 blend-diff">
+	</a>
+	
+	<a href="https://czhweb.gitee.io/software" title="三场五幕软件站"
+		class="bg-black rounded-full p-3 mx-2 my-2 transform hover:scale-110 active:scale-90 transition-transform duration-300 ease-in-out"
+		 target="_blank"   rel="noopener" >
+		<img src="/icons/software.svg" alt="software icon" class="w-4 h-4 md:w-6 md:h-6 blend-diff">
+	</a>
+	
+</div>
+<div class="mt-6"></div>
+
+
+	</main>
+
+	<div class="absolute bottom-0 w-full"><footer class="w-full h-24 text-center text-xs text-gray-400 bg-black relative">
+	<div class="w-full px-6 md:pt-0 md:mx-auto md:max-w-5xl flex flex-1 space-between items-center absolute-center">
+		<a href="https://example.com/" class="absolute no-underline">
+			<div class="w-36 h-8 relative bg-white blend-diff">
+	<h1 class="flex-center m-0 font-charter text-2xl text-gray-100 blend-diff select-none text-decoration:none">
+		三场五幕
+	</h1>
+</div>
+		</a>
+
+		<div class="h-full flex-1">
+			<span class="select-none">
+				Copyright © 
+				<a href="https://gitee.com/czhweb" class="text-gray-400 hover:text-gray-200 no-underline">三场五幕</a>
+				 2022 Designed by 
+				<a href="https://github.com/negrel/hugo-theme-pico" class="text-gray-400 hover:text-gray-200 no-underline">Pico</a>
+			</span>
+		</div>
+	</div>
+</footer>
+
+	</div>
+</body>
+
+</html>
